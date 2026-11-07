@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 220px; padding: 15px; font-family: sans-serif; text-align: center; }
+    button {
+      padding: 10px 15px; width: 100%; cursor: pointer;
+      border: none; border-radius: 5px; font-weight: bold; color: white;
+    }
+    .off { background-color: #d9534f; } /* Red */
+    .on { background-color: #5cb85c; }  /* Green */
+  </style>
+</head>
+<body>
+  <h3>Focus Blocker</h3>
+  <p id="status">Loading...</p>
+  <p id="stats">Times saved: 0</p>
+  <button id="toggleBtn">Toggle Manual Block</button>
+  <script src="popup.js"></script>
+</body>
+</html>

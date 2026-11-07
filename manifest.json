@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Blocker",
+  "version": "1.0",
+  "description": "Blocks YouTube from 10 AM to 5 PM or via manual toggle.",
+  "permissions": ["storage", "tabs", "alarms"],
+  "background": {
+    "service_worker": "service.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
